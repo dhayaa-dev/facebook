@@ -1,0 +1,144 @@
+*{
+    margin:0;
+    padding:0;
+    
+}
+body{
+    background-color: #f0f2f5;
+}
+.main{
+    display: flex;
+    animation-name: a;
+    
+
+
+}
+.sub1{
+    width:55%;
+    height:100vh;
+    padding-left: 18%;
+    padding-right: 5px;
+    animation-name: d;
+    position: relative;
+    animation-duration: 5s;
+
+}
+.sub2{
+    width:45%;
+    height:100vh;
+    animation-name: a;
+    position: relative;
+    animation-duration: 5s;
+
+}
+img{
+    width: 300px;
+    margin-top: 190px;
+}
+.p{
+    font-size: 28px;
+    font-family:Arial, Helvetica, sans-serif;
+    margin-left: 25px;
+    margin-top: -15px;
+
+}
+.forms{
+    width: 400px;
+    background-color: white;
+    border-radius: 8px;
+    text-align: center;
+    margin-top: 135px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    animation-name: d;
+    position: relative;
+    animation-duration: 5s;
+    
+
+
+}
+input{
+    width: 90%;
+    height: 50px;
+    margin-top: 20px;
+}
+input[type="submit"]{
+    background-color: #0866ff;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    border-radius: 6px;
+    border: none;
+}
+input[type="submit"]:hover{
+    background-color: #0766ffef;
+}
+input[type="text"],[type="password"]{
+    border: 1px solid #979592;
+    border-radius: 6px;
+    font-size: 16px;
+    padding-left: 13px;
+    
+}::placeholder{
+    color: #979592;
+}
+input[type="text"],[type="password"]:focus{
+    outline: 1px solid rgb(101, 166, 232);
+}
+.forms{
+   color: #3b85fc;
+   text-decoration: none;
+   margin: center;
+   font-family: Arial, Helvetica, sans-serif;
+   display: block;
+   margin-top: 120px;
+
+    
+
+}
+hr{
+    width: 90%;
+    margin: auto;
+    margin-top: 20px;
+    border: none;
+    border-top: 1px solid rgb(223, 213, 213);
+}
+button{
+    background-color:#42b72a;
+    color: white;
+    font-weight: bold;
+    font-size: 17px;
+    border-radius: 6px;
+    border: none;
+    width: 50%;
+    height: 50px;
+    margin-top: 20px;
+    margin-bottom: 23px;
+}
+button:hover{
+background-color: #3aa424;
+cursor: pointer;
+}
+.y{
+font-family:Arial, Helvetica, sans-serif;
+font-size: 10px;
+width:400px;
+text-align: center;
+margin-top: 20px;
+}
+.a1{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    animation-name: a;
+    position: relative;
+    animation-duration: 5s;
+
+}
+.a1 :hover{
+    text-decoration: underline;
+}
+@media screen and (max-width: 500px) {
+    .main {
+         width: 25%;
+    }
+  }
